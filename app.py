@@ -6,7 +6,7 @@ import sklearn
 app = Flask(__name__)
 
 # Load your trained machine learning model
-model = joblib.load('random_forest_model.pkl')
+#model = joblib.load('random_forest_model.pkl')
 
 @app.route('/')
 def hello():
